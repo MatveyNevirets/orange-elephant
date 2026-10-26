@@ -1,0 +1,3 @@
+type AnalyticsEvent='quiz_start'|'quiz_complete'|'lead_open'|'lead_success'|'lead_error'|'route_open'|'phone_click';
+export function track(name:AnalyticsEvent,data:Record<string,string|number>={}){window.dispatchEvent(new CustomEvent('center:analytics',{detail:{name,...data}}));}
+export function getUtm(){const keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];try{const params=new URLSearchParams(location.search);const saved=JSON.parse(sessionStorage.getItem('center:utm')||'{}') as Record<string,string>;for(const key of keys){const value=params.get(key);if(value)saved[key]=value.slice(0,200);}sessionStorage.setItem('center:utm',JSON.stringify(saved));return saved;}catch{return {};}}

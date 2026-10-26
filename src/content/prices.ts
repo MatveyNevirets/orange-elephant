@@ -1,0 +1,535 @@
+export interface Price {id:string;name:string;direction:string;category:string;format:'group'|'individual';amount:number;currency:string;source:string;}
+export const priceUpdatedAt='2026-10-12';
+export const prices:Price[]=[
+  {
+    "id": "70266205276225612",
+    "name": "Групповые занятия / Пробное занятие / Живопись 5 – 12 лет",
+    "direction": "Живопись 5 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225610",
+    "name": "Групповые занятия / Пробное занятие / Изо-лепка 3 – 5 лет",
+    "direction": "Изо-лепка 3 – 5 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225629",
+    "name": "Групповые занятия / Пробное занятие / Шахматы 4 – 12 лет",
+    "direction": "Шахматы 4 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225601",
+    "name": "Групповые занятия / Пробное занятие / Английский язык 5 – 12 лет",
+    "direction": "Английский язык 5 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225618",
+    "name": "Групповые занятия / Пробное занятие / Танцы современные 4 – 12 лет",
+    "direction": "Танцы современные 4 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225598",
+    "name": "Групповые занятия / Пробное занятие / Брейк-данс 5 – 12 лет",
+    "direction": "Брейк-данс 5 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225633",
+    "name": "Групповые занятия / Пробное занятие / Рукопашный бой 4 – 12 лет",
+    "direction": "Рукопашный бой 4 – 12 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225596",
+    "name": "Групповые занятия / Пробное занятие / Мини-сад 2,5 – 10 лет",
+    "direction": "Мини-сад 2,5 – 10 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225619",
+    "name": "Групповые занятия / Пробное занятие / Развитие интеллекта 2 – 5 лет",
+    "direction": "Развитие интеллекта 2 – 5 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225652",
+    "name": "Групповые занятия / Пробное занятие / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Групповые занятия / Пробное занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225600",
+    "name": "Групповые занятия / Разовое занятие / Живопись 5 – 12 лет",
+    "direction": "Живопись 5 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225605",
+    "name": "Групповые занятия / Разовое занятие / Изо-лепка 3 – 5 лет",
+    "direction": "Изо-лепка 3 – 5 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225626",
+    "name": "Групповые занятия / Разовое занятие / Шахматы 4 – 12 лет",
+    "direction": "Шахматы 4 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225622",
+    "name": "Групповые занятия / Разовое занятие / Английский язык 5 – 12 лет",
+    "direction": "Английский язык 5 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225606",
+    "name": "Групповые занятия / Разовое занятие / Танцы современные 4 – 12 лет",
+    "direction": "Танцы современные 4 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225654",
+    "name": "Групповые занятия / Разовое занятие / Брейк-данс 5 – 12 лет",
+    "direction": "Брейк-данс 5 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225647",
+    "name": "Групповые занятия / Разовое занятие / Рукопашный бой 4 – 12 лет",
+    "direction": "Рукопашный бой 4 – 12 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225623",
+    "name": "Групповые занятия / Разовое занятие / Мини-сад 2,5 – 10 лет",
+    "direction": "Мини-сад 2,5 – 10 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 250,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225634",
+    "name": "Групповые занятия / Разовое занятие / Развитие интеллекта 2 – 5 лет",
+    "direction": "Развитие интеллекта 2 – 5 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225615",
+    "name": "Групповые занятия / Разовое занятие / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Групповые занятия / Разовое занятие",
+    "format": "group",
+    "amount": 499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225609",
+    "name": "Групповые занятия / Живопись 5 – 12 лет",
+    "direction": "Живопись 5 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225627",
+    "name": "Групповые занятия / Изо-лепка 3 – 5 лет",
+    "direction": "Изо-лепка 3 – 5 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225620",
+    "name": "Групповые занятия / Шахматы 4 – 12 лет",
+    "direction": "Шахматы 4 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225653",
+    "name": "Групповые занятия / Английский язык 5 – 12 лет",
+    "direction": "Английский язык 5 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225630",
+    "name": "Групповые занятия / Танцы современные 4 – 12 лет",
+    "direction": "Танцы современные 4 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225636",
+    "name": "Групповые занятия / Брейк-данс 5 – 12 лет",
+    "direction": "Брейк-данс 5 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225632",
+    "name": "Групповые занятия / Рукопашный бой 4 – 12 лет",
+    "direction": "Рукопашный бой 4 – 12 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225644",
+    "name": "Групповые занятия / Мини-сад 2,5 – 10 лет",
+    "direction": "Мини-сад 2,5 – 10 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 999,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225597",
+    "name": "Групповые занятия / Развитие интеллекта 2 – 5 лет",
+    "direction": "Развитие интеллекта 2 – 5 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225603",
+    "name": "Групповые занятия / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Групповые занятия",
+    "format": "group",
+    "amount": 1799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225650",
+    "name": "Групповые занятия / Годовой абонемент / Живопись 5 – 12 лет",
+    "direction": "Живопись 5 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225625",
+    "name": "Групповые занятия / Годовой абонемент / Изо-лепка 3 – 5 лет",
+    "direction": "Изо-лепка 3 – 5 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225599",
+    "name": "Групповые занятия / Годовой абонемент / Шахматы 4 – 12 лет",
+    "direction": "Шахматы 4 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225611",
+    "name": "Групповые занятия / Годовой абонемент / Английский язык 5 – 12 лет",
+    "direction": "Английский язык 5 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225635",
+    "name": "Групповые занятия / Годовой абонемент / Танцы современные 4 – 12 лет",
+    "direction": "Танцы современные 4 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 24500,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225608",
+    "name": "Групповые занятия / Годовой абонемент / Брейк-данс 5 – 12 лет",
+    "direction": "Брейк-данс 5 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 24500,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225646",
+    "name": "Групповые занятия / Годовой абонемент / Рукопашный бой 4 – 12 лет",
+    "direction": "Рукопашный бой 4 – 12 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 24500,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225631",
+    "name": "Групповые занятия / Годовой абонемент / Развитие интеллекта 2 – 5 лет",
+    "direction": "Развитие интеллекта 2 – 5 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225624",
+    "name": "Групповые занятия / Годовой абонемент / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Групповые занятия / Годовой абонемент",
+    "format": "group",
+    "amount": 26600,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225641",
+    "name": "Индивидуальные занятия / Разовое занятие / Английский язык 5 – 13 лет",
+    "direction": "Английский язык 5 – 13 лет",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225643",
+    "name": "Индивидуальные занятия / Разовое занятие / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225645",
+    "name": "Индивидуальные занятия / Разовое занятие / Русский язык 1-5 класс",
+    "direction": "Русский язык 1-5 класс",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225604",
+    "name": "Индивидуальные занятия / Разовое занятие / Математика 1-5 класс",
+    "direction": "Математика 1-5 класс",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225614",
+    "name": "Индивидуальные занятия / Разовое занятие / Окружающий мир 1-5 класс",
+    "direction": "Окружающий мир 1-5 класс",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225637",
+    "name": "Индивидуальные занятия / Разовое занятие / Чтение 1-5 класс",
+    "direction": "Чтение 1-5 класс",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225616",
+    "name": "Индивидуальные занятия / Разовое занятие / Каллиграфия 1-5 класс",
+    "direction": "Каллиграфия 1-5 класс",
+    "category": "Индивидуальные занятия / Разовое занятие",
+    "format": "individual",
+    "amount": 799,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225621",
+    "name": "Индивидуальные занятия / Английский язык 5 – 13 лет",
+    "direction": "Английский язык 5 – 13 лет",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225607",
+    "name": "Индивидуальные занятия / Подготовка к школе 5 – 7 лет",
+    "direction": "Подготовка к школе 5 – 7 лет",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 4499,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225638",
+    "name": "Индивидуальные занятия / Русский язык 1-5 класс",
+    "direction": "Русский язык 1-5 класс",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225651",
+    "name": "Индивидуальные занятия / Математика 1-5 класс",
+    "direction": "Математика 1-5 класс",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225617",
+    "name": "Индивидуальные занятия / Окружающий мир 1-5 класс",
+    "direction": "Окружающий мир 1-5 класс",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225642",
+    "name": "Индивидуальные занятия / Чтение 1-5 класс",
+    "direction": "Чтение 1-5 класс",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  },
+  {
+    "id": "70266205276225613",
+    "name": "Индивидуальные занятия / Каллиграфия 1-5 класс",
+    "direction": "Каллиграфия 1-5 класс",
+    "category": "Индивидуальные занятия",
+    "format": "individual",
+    "amount": 5699,
+    "currency": "RUB",
+    "source": "https://2gis.ru/saratov/firm/70000001083276143/tab/prices"
+  }
+];
+export const rub=(amount:number)=>new Intl.NumberFormat('ru-RU').format(amount)+' \u20bd';
